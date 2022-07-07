@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>dawid jasper misja</title>
+</head>
+
+<body>
+
+    <p><button id="play-bttn" onclick="zagrajtoguwno();">play</button></p>
+
+    <script type="text/javascript">
+
+        const dawidjasperMisja = new Audio();
+
+        dawidjasperMisja.loop = true;
+        dawidjasperMisja.src = './src/sound.mp3'
+
+
+        function zagrajtoguwno() {
+            dawidjasperMisja.play();
+        }
+
+    </script>
+
+    <style>
+        body {
+            background-color: #000000;
+        }
+
+        #play-bttn {
+            font-family: sans-serif;
+            background-color: #000000;
+            border-radius: 10px;
+            padding: 10px 40px;
+            margin-right: 5px;
+            font-weight: 600;
+            margin-left: 5px;
+            font-size: 13px;
+            color: white;
+            align-items: center;
+        }
+    </style>
+
+</body>
+
+</html>
